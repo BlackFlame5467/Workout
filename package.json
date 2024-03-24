@@ -1,0 +1,40 @@
+{
+	"name": "workout-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/BlackFlame5467/Workout.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/BlackFlame5467/Workout/issues"
+	},
+	"homepage": "https://github.com/BlackFlame5467/Workout#readme",
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^4.3.0",
+		"colors": "^1.4.0",
+		"dotenv": "^16.4.5",
+		"morgan": "^1.10.0",
+		"nodemon": "^3.1.0",
+		"prettier": "^3.2.5"
+	},
+	"dependencies": {
+		"@faker-js/faker": "^8.4.1",
+		"@prisma/client": "5.11.0",
+		"argon2": "^0.40.1",
+		"express": "^4.19.1",
+		"express-async-handler": "^1.2.0",
+		"faker-js": "^1.0.0",
+		"jsonwebtoken": "^9.0.2",
+		"pg": "^8.11.3",
+		"prisma": "^5.11.0"
+	}
+}
